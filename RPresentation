@@ -1,0 +1,49 @@
+#Exploring Mtcars Dataset
+##Optimize your favourite car by exploring Motor Trends
+========================================================
+author: Deepak Mishra 
+date: 11/22/1015
+
+First Slide
+========================================================
+
+Introduction
+
+- This peer assessed assignment has two parts. First, you will create a Shiny application and deploy it on Rstudio's servers. Second, you will use Slidify or Rstudio Presenter to prepare a reproducible pitch presentation about your application.
+
+- The app developed and the entire presentation is located in Github Repository:
+https://github.com/10691deepak/Developing-Data-Products
+
+Second Slide
+========================================================
+
+This app help us optimize the best car for our use by looking at the mtcars dataset
+
+- This app takes in different features you would like to be in the car, and then it uses the
+pricing feature to optimize the best car for your trip distance and gasoline price.
+
+- Bottom line is, the more information you provide, the app will give you the best deal of the car 
+available at your location.
+
+Motor Car Data Sets
+========================================================
+
+The below data was extracted from the 1974 Motor Trend US magazine and comprises fuel consumption and 10 aspects of automobile design and performance automobiles (1973–74 models). Following is a brief summary
+
+
+```{r}
+head(mtcars)
+```
+
+Plot
+========================================================
+
+By exlporing below, we can see a relaitonship between; miles per gallon(mpg), displacement(disp) and weight(wt)
+
+
+```{r, echo=FALSE}
+library(car)
+scatterplot.matrix(~mpg+disp+wt, data = mtcars, cex.axis = 2)
+
+```
+
