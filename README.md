@@ -1,5 +1,5 @@
 # Developing-Data-Products Project
-This peer assessed assignment has two parts. First, you will create a Shiny application and deploy it on Rstudio's servers. Second, you will use Slidify or Rstudio Presenter to prepare a reproducible pitch presentation about your application.
+This peer assessed assignment has two parts. First, creating a Shiny application and deploy it on Rstudio's servers. Second, using Slidify or Rstudio Presenter to prepare a reproducible pitch presentation about the application.
 
 #PART 1 - SHINY APPLICATION
 Write a shiny application with associated supporting documentation. The documentation should be thought of as whatever a user will need to get started using your application.
